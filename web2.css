@@ -1,0 +1,71 @@
+header {
+  background: linear-gradient(90deg, #1c1c1c, #8a4747);
+  color: #fff;
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+header nav ul li a:hover {
+  color: #f4c509;
+}
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Font yang digunakan untuk seluruh halaman */
+  background-color: #f4f4f4; /* Warna latar belakang halaman */
+  color: #333; /* Warna teks default */
+}
+
+header {
+  background-color: #6f4c3e; /* Warna latar belakang header */
+  padding: 25px 0; /* Padding atas dan bawah */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk header */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Lebar maksimum kontainer */
+  margin: 0 auto; /* Mengatur margin otomatis untuk pusat */
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  justify-content: space-between; /* Spasi antara logo dan navigasi */
+  align-items: center; /* Vertikal tengah */
+}
+
+.logo {
+  font-size: 24px; /* Ukuran font untuk logo */
+  color: #ffffff; /* Warna teks logo */
+  font-weight: bold; /* Menebalkan teks logo */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px; /* Jarak antar item menu */
+}
+
+nav ul li a {
+  color: #e0e0e0;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  header nav ul li a:hover {
+    color: #f4c509;
+  }
+}
